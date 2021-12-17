@@ -75,9 +75,22 @@ body, html {
 
 
 .Fusszeile {
-    background-color: rgb(131, 131, 131);
-    padding: 0px 0px 400px 0px;
+    background-color: rgb(203, 203, 203);
     margin: 0;
+}
+
+.Fusszeilen-Container {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.Fusszeile-Item {
+    display: flex;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0px 20px 0px 20px;
 }
 
 .UeberUns {
