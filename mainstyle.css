@@ -48,31 +48,32 @@ body, html {
     display: flex;
     width: 100%;
     height: 1000px;
-    background-image: url("Unsplash Bilder/Background.jpg");
     background-size: 100%;
     justify-content: center;
 }
 
-.ContentItem {
-    display: flex;
+.TeaserItem {
     width: 1000px;
     height: 500px;
-    background-color: rgba(171, 116, 44, 0.872);
+    background-image: url("Unsplash Bilder/ContentItemBild.jpg");
+    background-size: cover;
     margin: auto;
+    text-align: right;
 }
 
-.ItemContainer {
+.TeaserItem h1 {
+    color: white;
+    padding: 20px 20px 0 0;
+}
+
+.TeaserItem h2 {
+    color: white;
+    padding: 40px 20px 0 50%;
+}
+
+.ItemText{
     display: flex;
-    justify-content: space-between;
-}
-
-.ItemText {
-    flex-wrap: wrap;
-    margin: 25px 40px 20px 40px;
-}
-
-.ItemBild{
-    display: flex;
+    color: white;
     margin: 120px 0 129px 0;
     padding: 0 20px 0 10px;
 }
@@ -93,10 +94,6 @@ body, html {
     display: flex;
     color: black;
     padding: 0px 20px 0px 20px;
-}
-
-.UeberUns {
-    padding: 0 0 30px 0;
 }
 
 .textueber {
