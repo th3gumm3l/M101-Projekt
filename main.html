@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,6 +13,9 @@
     <!--CSS stylesheet Verbindung-->
     <link rel="stylesheet" href="mainstyle.css">
 
+    <!--Logo Bild in Titel-->
+    <link rel="shortcut icon" href="Schuber Lampen/favicon.ico">
+
 </head>
 
 <body>
@@ -19,26 +23,39 @@
     <!--Header Abteil-->
     <div class="header-section">
 
-        <!--LogoBild 200x200-->
-        <div class="header-logo">
-            <img src="Schuber Lampen/Logo Bild 200x200.png" alt="Logo">
-        </div>
-
+        
         <!--Navigation-->
         <div class="header-navigation">
-            <a href="main.html" class="navigation-item">Startseite</a>
-            <a href="produkte.html" class="navigation-item">Produkte</a>
-            <a href="team.html" class="navigation-item">Team</a>
+            
+            <!--LogoBild 200x200-->
+            <img src="Schuber Lampen/Logo Bild 200x200.png" alt="Logo" class="header-logo">
+            
+            <div class="navbar">
+                <a href="main.html" class="navigation-item">Startseite</a>
+                <a href="produkte.html" class="navigation-item">Produkte</a>
+                <a href="team.html" class="navigation-item">Team</a>
+            </div>
+
         </div>
 
         <!--NewsBox-->
         <div class="header-news">
         
-            <a href="#">SmartSchuber</a>
+            <div class="header-news-container">
+                <div class="header-news-itemtext">
+                    <h1>SmartSchuber</h1>
+                    <br>
+                    <p>
+                        Mit Hilfe des SmartSchuber System steuern Sie das Licht in Ihrem ganzen Haus. Mithilfe unsere eigens entwickelten Apps bringen Sie Stimmung in Ihr Heim!
+                    </p>
+                </div>
 
-            <p>
-                Mit Hilfe des SmartSchuber System steuern Sie das Licht in Ihrem ganzen Haus. Mithilfe unsere eigens entwickelten Apps bringen Sie Stimmung in Ihr Heim!
-            </p>
+                <div class="header-news-itembild">
+                    <img src="Unsplash Bilder/ContentItemBild.jpg" alt="">
+                </div>
+
+            </div>
+
         
         </div>
 
@@ -50,13 +67,19 @@
 
         <!--Über Uns-->
         <div class="Body-UeberUns">
-            <h1>Über Uns</h1>
-
-            <p>Die Schuber Lampen AG widmet sich als Teil der Schuber Holding seit 10 Jahren der Herstellung von modischen Lampen für das bewusste Wohnen.
-                <br>
-                <br>
-                Zusammen mit internationalen Spezialisten entwickeln wir zeitlose Designs verbunden mit höchstem Komfort. Für ein einmaliges Lichterlebnis!
-            </p>
+            
+            <div class="UeberUns-Container">
+                <div class="UeberUns-Text">
+                    <h1>Über Uns</h1>
+                </div>
+    
+                <div class="UeberUns-Text">
+                    <p>Die Schuber Lampen AG widmet sich als Teil der Schuber Holding seit 10 Jahren der Herstellung von modischen Lampen für das bewusste Wohnen.
+                        Zusammen mit internationalen Spezialisten entwickeln wir zeitlose Designs verbunden mit höchstem Komfort. Für ein einmaliges Lichterlebnis!
+                    </p>
+                </div>
+                
+            </div>
         
         </div>
 

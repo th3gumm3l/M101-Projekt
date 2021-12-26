@@ -1,0 +1,91 @@
+
+/*Alles*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Header CSS*/
+.header-section {
+    background-image: url("Unsplash Bilder/Titelbild.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 600px;
+}
+
+.header-navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    margin-left: 30px;
+}
+
+.navbar {
+    margin: 75px 136px 0 0;
+}
+
+.navigation-item {
+    margin: 25px;
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+}
+
+.navigation-item:hover {
+    color: white;
+}
+
+.header-news {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+}
+
+.header-news-container {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    width: 60%;
+    height: 315px;
+    background-color: rgba(219, 201, 159, 0.424);
+    box-shadow: 0.5rem 0.5rem rgba(47, 47, 47, 0.472), -0.5rem -0.5rem rgba(47, 47, 47, 0.472)
+    
+}
+
+.header-news-itemtext {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 40%;
+}
+
+.header-news-itembild {
+    display: flex;
+    width: 473px;
+    height: 315px;
+}
+
+
+/*Body CSS*/
+
+.body-section {
+    background-color: rgba(149, 161, 177, 0.424);
+}
+
+.Body-UeberUns {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    height: 300px;
+}
+
+.UeberUns-Container {
+    display: flex;
+}
+
+.UeberUns-Text {
+    display: flex;
+}
