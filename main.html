@@ -216,40 +216,45 @@
         <div class="prefooter-ContactFormula">
             
             <div class="ContactFormula-Container">
+
+                <div class="CF-Text">
+                    <h1>Kontakformular</h1>
+                </div>
+
                 <form class="Kontaktformular" action="https://formlog.offline.ch/log" method="post">
                     <div class="KF-Vorname">
-                        <label for="Vorname">*Vorname:</label>
+                        <label for="Vorname">*Vorname:</label> <br>
                         <input type="text" name="Vorname" id="Vorname" required>
                     </div>
 
                     <div class="KF-Nachname">
-                        <label for="Nachname">*Nachname:</label>
+                        <label for="Nachname">*Nachname:</label> <br>
                         <input type="text" name="Nachname" id="Nachname" required> 
                     </div>
                     
                     <div class="KF-Email">
-                        <label for="E-Mail">*E-Mail:</label>
+                        <label for="E-Mail">*E-Mail:</label> <br>
                         <input type="email" name="E-Mail" id="E-Mail" required>
                     </div>
 
                     <div class="KF-Tel">
-                        <label for="Telefonnummer">Telefonnummer:</label>
+                        <label for="Telefonnummer">Telefonnummer:</label> <br>
                         <input type="tel" name="Telefonnummer" id="Telefonnummer" placeholder="+41...">
                     </div>
 
                     <div class="KF-GbD">
-                        <label for="Geburtsdatum">*Geburtsdatum:</label>
+                        <label for="Geburtsdatum">*Geburtsdatum:</label> <br>
                         <input type="date" name="Geburtsdatum" id="Geburtsdatum" required>
                     </div>
-                    
+
                     <div class="KF-Text">
-                        <label for="Text">*Text:</label>
+                        <label for="Text">*Text:</label> <br>
                         <textarea name="Text" id="Text" cols="50" rows="5" placeholder="Text eingeben..." maxlength="1000" required></textarea>
                     </div>
                     
                     <p>* sind Pflichtfelder</p>
                     
-                    <div class="Kontaktformular-SubmitButton">
+                    <div class="KF-SubmitButton">
                         <input type="submit" value="Absenden">
                     </div>
 
@@ -265,58 +270,75 @@
     <!--Footer Abteil-->
     <div class="footer-section">
         
-        <!--Showroom-->        
-        <div class="footer-showroom">
-            <h1>Showroom</h1>
+        <div class="footer-Container">
 
-            <p>
-                In unserem Showroom in Rümlang finden Sie alle unsere Produkte der diesjährigen Serie ausgestellt.
-                Kommen Sie vorbei und lassen Sie Sich inspirieren!
-            </p>
-            
-            <p>
-                Karte:
-                Showroom Schuber Lampen
-                Kehlweg 19
-                Rümlang
-            </p>
 
-        </div>
-        
-        <!--Kontakt-->
-        <div class="footer-contact">
-            <h1>Kontakt</h1>
-            
-            <p>
-                Um mit uns in Kontakt zu treten, verwenden Sie bitte entweder das Kontakformular oder rufen uns auf folgenden Nummern an:
-            </p>
-
-            <table>
-                <tr>
-                    <th>Anliegen</th>
-                    <th>Telefonnummern</th>
-                </tr>
-
-                <tr>
-                    <td>Administration</td>
-                    <td><a href="tel:+41 555 25 05">041 555 25 05</a></td>
-                </tr>
+            <!--Kontakt-->
+            <div class="footer-contact">
                 
-                <tr>
-                    <td>Technische Fragen</td>
-                    <td><a href="tel:+41 555 25 06">041 555 25 06</a></td>
-                </tr>
+                <div class="Kontakt-Container">
+                    
+                    <div class="Kontakt-Tabelle">
+                        <table>
+                            <tr>
+                                <th>Anliegen</th>
+                                <th>Telefonnummern</th>
+                            </tr>
+                            
+                            <tr>
+                                <td>Administration</td>
+                                <td><a href="tel:+41 555 25 05">041 555 25 05</a></td>
+                            </tr>
+                            
+                            <tr>
+                                <td>Technische Fragen</td>
+                                <td><a href="tel:+41 555 25 06">041 555 25 06</a></td>
+                            </tr>
+                            
+                            <tr>
+                                <td>Bestellungen</td>
+                                <td><a href="tel:+41 555 25 07">041 555 25 07</a></td>
+                            </tr>
+                        </table>
+                    </div>
 
-                <tr>
-                    <td>Bestellungen</td>
-                    <td><a href="tel:+41 555 25 07">041 555 25 07</a></td>
-                </tr>
-            </table>
+                    <div class="Kontakt-Text">
+                        <h1>Kontakt</h1>
+                        <br>
+                        <p>
+                            Um mit uns in Kontakt zu treten, verwenden Sie bitte entweder das Kontakformular oder rufen uns auf folgenden Nummern an:
+                        </p>
+                    </div>
+                    
+                </div>
+                
+    
+            </div>
+            
+    
+            <!--Showroom-->        
+            <div class="footer-showroom">
+                <div class="showroom-Container">
+                    <div class="showroom-text">
+                        <h1>Showroom</h1>
+                        <br>
+                        <p>
+                            In unserem Showroom in Rümlang finden Sie alle unsere Produkte der diesjährigen Serie ausgestellt.
+                            Kommen Sie vorbei und lassen Sie Sich inspirieren!
+                        </p>
+                    </div>
         
+                    <div class="showroom-karte">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21584.464068269215!2d8.512060520926418!3d47.44980866716486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479075314abe0901%3A0x8d23b9f3cc47e027!2zUsO8bWxhbmc!5e0!3m2!1sde!2sch!4v1640543363745!5m2!1sde!2sch" width="300" height="196" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+
+                </div>
+
+                
+            </div>
 
 
         </div>
-
 
     </div>
 

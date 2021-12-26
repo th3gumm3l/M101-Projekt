@@ -146,10 +146,10 @@
     padding-right: 180px;
 }
 
-.Dienstleistungen-Tabelle td {
+/*.Dienstleistungen-Tabelle td {
 
 }
-
+*/
 
 
 
@@ -188,9 +188,10 @@
     padding-right: 130px;
 }
 
-.SH-Table-Name {
+/*.SH-Table-Name {
 
 }
+*/
 
 .SH-Table-Zweck {
     padding-right: 1px;
@@ -201,11 +202,97 @@
 }
 
 
-/*PreFooter Kontaktformular*/
-.prefooter-ContactFormula {
-    
+
+
+
+/*PreFooter Abteil*/
+.prefooter-section {
+    background-color: grey;
 }
 
-.Kontaktformular {
+/*PreFooter ContactFormula*/
+.prefooter-ContactFormula {
+    display: flex;
+    justify-content: center;
+    height: 450px;
+}
 
+.ContactFormula-Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+/*PreFooter KontaktFormular*/
+.Kontaktformular {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+/*Footer Abteil*/
+.footer-section {
+    background-color: lightgray;
+}
+
+.footer-Container {
+    display: flex;
+    height: 200px;
+}
+
+
+/*Footer Kontakt*/
+.footer-contact {
+    width: 50%;
+}
+
+.Kontakt-Container {
+    display: flex;
+}
+
+.Kontakt-Text {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    justify-content: center;
+    padding-right: 60px;
+}
+
+.Kontakt-Tabelle {
+    display: flex;
+    width: 45%;
+    align-items: center;
+    text-align: left;
+    height: 200px;
+    padding: 0 50px 0 0;
+    justify-content: flex-end;
+}
+
+
+/*Footer Showroom*/
+.footer-showroom {
+    width: 50%;
+}
+
+.showroom-Container {
+    display: flex;
+}
+
+.showroom-text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: right;
+    justify-content: center;
+    padding: 0px 50px 0 30px;
+}
+
+.showroom-karte {
+    margin: 0;
+    padding: 0;
 }
