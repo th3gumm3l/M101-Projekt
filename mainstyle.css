@@ -14,13 +14,10 @@
     height: 600px;
 }
 
+/*Header Navigation*/
 .header-navigation {
     display: flex;
     justify-content: space-between;
-}
-
-.header-logo {
-    margin-left: 30px;
 }
 
 .navbar {
@@ -38,6 +35,12 @@
     color: white;
 }
 
+/*Header Logo*/
+.header-logo {
+    margin-left: 30px;
+}
+
+/*Header News*/
 .header-news {
     display: flex;
     justify-content: center;
@@ -69,23 +72,140 @@
 }
 
 
-/*Body CSS*/
 
+
+
+/*Body CSS*/
 .body-section {
     background-color: rgba(149, 161, 177, 0.424);
 }
 
+/*Body Über Uns*/
 .Body-UeberUns {
     display: flex;
     justify-content: center;
-    width: 60%;
     height: 300px;
 }
 
 .UeberUns-Container {
     display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: 30px;
+    background-color: rgba(219, 201, 159, 0.424);
 }
 
 .UeberUns-Text {
     display: flex;
+    flex-direction: column;
+    padding: 45px;
+}
+
+.UeberUns-Bild {
+    display: flex;
+    width: 300px;
+    height: 300px;
+}
+
+
+
+
+
+/*Body Dienstleistungen*/
+.Body-Dienstleistungen {
+    display: flex;
+    justify-content: center;
+    height: 403px;
+}
+
+.Dienstleistungen-Container {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 30px;
+    background-color: rgba(219, 201, 159, 0.424);
+}
+
+.Dienstleistungen-Text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 138px 0 138px;
+}
+
+/*Dienstleistungen Tabelle*/
+.Dienstleistungen-Tabelle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0 20px 0;
+    text-align: left;
+}
+
+.Dienstleistungen-Tabelle th {
+    padding-right: 180px;
+}
+
+.Dienstleistungen-Tabelle td {
+
+}
+
+
+
+
+/*Body Schuber Holding*/
+.Body-SchuberHolding {
+    display: flex;
+    justify-content: center;
+    height: 423px;
+}
+
+.SchuberHolding-Container {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 30px;
+    background-color: rgba(219, 201, 159, 0.424);
+}
+
+.SchuberHolding-Text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 138px 0 138px;
+}
+
+/*SchuberHolding Tabelle*/
+.SchuberHolding-Tabelle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: left;
+}
+
+.SchuberHolding-Tabelle th {
+    padding-right: 130px;
+}
+
+.SH-Table-Name {
+
+}
+
+.SH-Table-Zweck {
+    padding-right: 1px;
+}
+
+.SH-Table-URL {
+    text-decoration: none;
+}
+
+
+/*PreFooter Kontaktformular*/
+.prefooter-ContactFormula {
+    
+}
+
+.Kontaktformular {
+
 }
