@@ -39,3 +39,60 @@
 .header-logo {
     margin-left: 30px;
 }
+
+
+
+/*Body CSS*/
+.body-section {
+    background-color: rgb(77, 77, 77);
+}
+
+/*Herstellung & Design*/
+.Body-HerstellungDesign {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+
+.HerstellungDesign-Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin: 30px;
+    padding: 10px 138px 0px 138px;
+    background-color: rgba(219, 201, 159, 0.424);
+}
+
+.HerstellungDesign-Container p {
+    align-items: center;
+}
+
+/*Produkte*/
+.Body-Produkte {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.Produkte-item {
+    display: flex;
+    background-color: rgba(219, 201, 159, 0.424);
+    align-items: center;
+    justify-content: space-evenly;
+    width: 30%;
+    height: 300px;
+    margin: 0 0 40px 0;
+}
+
+
+/*PreFooter CSS*/
+.prefooter-section {
+    background-color: grey;
+}
+
+.prefooter-SmartSchuber {
+    height: 200px;
+}
+
+/*SmartSchuber*/
