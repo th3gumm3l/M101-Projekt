@@ -19,10 +19,12 @@
 .header-navigation {
     display: flex;
     justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.365);
+    align-items: center;
 }
 
 .navbar {
-    margin: 75px 136px 0 0;
+    margin: 0 136px 0 0;
 }
 
 .navigation-item {
@@ -53,8 +55,9 @@
     justify-content: center;
     padding: 10px;
     width: 60%;
-    background-color: rgba(219, 201, 159, 0.424);
-    box-shadow: 0.5rem 0.5rem rgba(47, 47, 47, 0.472), -0.5rem -0.5rem rgba(47, 47, 47, 0.472)
+    background-color: rgba(193, 189, 189, 0.399);
+    box-shadow: 0.5rem 0.5rem rgba(47, 47, 47, 0.472), -0.5rem -0.5rem rgba(47, 47, 47, 0.472);
+    margin: 60px 0 60px 0;
     
 }
 
@@ -80,7 +83,7 @@
 
 /*Body CSS*/
 .body-section {
-    background-color: rgba(149, 161, 177, 0.424);
+    background-color: rgba(184, 184, 184, 0.424);
 }
 
 
@@ -92,25 +95,26 @@
 
 .UeberUns-Container {
     display: flex;
-    justify-content: center;
+    align-items: center;
     width: 60%;
-    margin: 30px;
-    background-color: rgba(219, 201, 159, 0.424);
+    margin: 60px 0 30px 0;
+    background-color: rgba(193, 189, 189, 0.399);
 }
 
 .UeberUns-Text {
     display: flex;
     flex-direction: column;
-    padding: 45px;
+    padding: 0 45px 0 45px;
 }
 
 .UeberUns-itembild {
     display: flex;
+    padding: 30px 0 0 10px;
 }
 
 .UeberUns-Bild {
-    width: 300px;
-    height: 300px;
+    max-width: 300px;
+    max-height: 300px;
 }
 
 /*Body Dienstleistungen*/
@@ -123,14 +127,15 @@
     display: flex;
     flex-direction: column;
     width: 60%;
-    margin: 30px;
-    background-color: rgba(219, 201, 159, 0.424);
+    margin: 30px 0 30px 0;
+    background-color: rgba(193, 189, 189, 0.399);
 }
 
 .Dienstleistungen-Text {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     padding: 20px 138px 0 138px;
 }
 
@@ -157,46 +162,41 @@
     display: flex;
     flex-direction: column;
     width: 60%;
-    margin: 30px;
-    background-color: rgba(219, 201, 159, 0.424);
+    margin: 30px 0 60px 0;
+    background-color: rgba(193, 189, 189, 0.399);
 }
 
 .SchuberHolding-Text {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     padding: 20px 138px 0 138px;
 }
 
 /*SchuberHolding Tabelle*/
-.SchuberHolding-Tabelle {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.SchuberHolding-Tabelle-container {
     padding: 20px;
-    text-align: left;
 }
 
-.SchuberHolding-Tabelle th {
-    padding-right: 130px;
+.SchuberHolding-Tabelle {
+    width: 100%;
+    text-align: center;
 }
 
-
-.SH-Table-Zweck {
-    padding-right: 1px;
+.SchuberHolding-Tabelle th, td{
+    padding: 5px 0 5px 0;
 }
 
-.SH-Table-URL {
+.SchuberHolding-Tabelle a {
     text-decoration: none;
+    color: black;
 }
-
-
-
 
 
 /*PreFooter Abteil*/
 .prefooter-section {
-    background-color: grey;
+    background-color: rgb(169, 168, 168);
 }
 
 /*PreFooter ContactFormula*/
@@ -232,6 +232,7 @@
 
 .footer-Container {
     display: flex;
+    align-items: center;
 }
 
 
