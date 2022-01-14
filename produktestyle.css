@@ -12,17 +12,19 @@
     background-image: url("Unsplash Bilder/Titelbild.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 600px;
 }
+
 
 /*Header Navigation*/
 .header-navigation {
     display: flex;
     justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.365);
+    align-items: center;
 }
 
 .navbar {
-    margin: 75px 136px 0 0;
+    margin: 0 136px 0 0;
 }
 
 .navigation-item {
@@ -33,8 +35,8 @@
     font-size: 2rem;
 }
 
-.navigation-item:hover{
-    color: white;
+.navigation-item:hover {
+    color: red;
 }
 
 /*Header Logo*/
@@ -42,35 +44,34 @@
     margin-left: 30px;
 }
 
-
-
-
-
-
-/*Body CSS*/
-.body-section {
-    background-color: rgb(77, 77, 77);
-}
-
-/*Herstellung & Design*/
-.Body-HerstellungDesign {
+.Header-HerstellungDesign {
     display: flex;
     justify-content: center;
-    height: 300px;
 }
 
 .HerstellungDesign-Container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    text-align: center;
+    padding: 50px;
     width: 60%;
-    margin: 30px;
-    padding: 10px 138px 0px 138px;
-    background-color: rgba(219, 201, 159, 0.424);
+    background-color: rgba(193, 189, 189, 0.399);
+    box-shadow: 0.5rem 0.5rem rgba(47, 47, 47, 0.472), -0.5rem -0.5rem rgba(47, 47, 47, 0.472);
+    margin: 87px 0 87px 0;
+    
 }
 
 .HerstellungDesign-Container p {
     align-items: center;
+}
+
+
+
+/*Body CSS*/
+.body-section {
+    background-color: rgba(184, 184, 184, 0.424);
 }
 
 /*Produkte*/
@@ -82,12 +83,12 @@
 
 .Produkte-item {
     display: flex;
-    background-color: rgba(219, 201, 159, 0.424);
+    background-color: rgba(193, 189, 189, 0.399);
     align-items: center;
     justify-content: space-evenly;
     width: 30%;
     height: 300px;
-    margin: 0 0 40px 0;
+    margin: 30px 0 30px 0;
 }
 
 
@@ -97,7 +98,7 @@
 
 /*PreFooter CSS*/
 .prefooter-section {
-    background-color: grey;
+    background-color: rgb(169, 168, 168);
 }
 
 /*SmartSchuber*/
@@ -119,7 +120,7 @@
 
 .footer-Container {
     display: flex;
-    height: 200px;
+    align-items: center;
 }
 
 
@@ -145,11 +146,9 @@
     width: 45%;
     align-items: center;
     text-align: left;
-    height: 200px;
     padding: 0 50px 0 0;
     justify-content: flex-end;
 }
-
 
 /*Footer Showroom*/
 .footer-showroom {
@@ -169,7 +168,12 @@
     padding: 0px 50px 0 30px;
 }
 
-.showroom-karte {
+.showroom-karte-item {
     margin: 0;
     padding: 0;
+}
+
+.showroom-karte {
+    max-width: 300px;
+    max-height: 196px;
 }

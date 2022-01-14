@@ -11,17 +11,20 @@
     background-image: url("Unsplash Bilder/Titelbild.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 600px;
+
 }
+
 
 /*Header Navigation*/
 .header-navigation {
     display: flex;
     justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.365);
+    align-items: center;
 }
 
 .navbar {
-    margin: 75px 136px 0 0;
+    margin: 0 136px 0 0;
 }
 
 .navigation-item {
@@ -32,8 +35,8 @@
     font-size: 2rem;
 }
 
-.navigation-item:hover{
-    color: white;
+.navigation-item:hover {
+    color: red;
 }
 
 /*Header Logo*/
@@ -41,16 +44,45 @@
     margin-left: 30px;
 }
 
+/*Header Mitarbeiter*/
+.header-mitarbeiter {
+    display: flex;
+    justify-content: center;
+}
 
+.header-mitarbeiter-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    width: 60%;
+    background-color: rgba(193, 189, 189, 0.399);
+    box-shadow: 0.5rem 0.5rem rgba(47, 47, 47, 0.472), -0.5rem -0.5rem rgba(47, 47, 47, 0.472);
+    margin: 66px 0 66px 0;
+}
+
+.mitarbeiter-itemtext {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 40%;
+}
+
+.mitarbeiter-itembild {
+    display: flex;
+}
+
+.mitarbeiter-bild {
+    max-width: 251px;
+    max-height: 243px;    
+}
 
 
 
 /*Body CSS*/
 :root {
---level-1: #8dccad;
---level-2: #f5cc7f;
---level-3: #7b9fe0;
---level-4: #f27c8d;
+--level-1: #cc918d;
+--level-2: #c9c6bf;
+--level-3: #a5bce6;
 --black: black;
 }
 
@@ -255,7 +287,7 @@ list-style: none;
 
 .footer-Container {
     display: flex;
-    height: 200px;
+    align-items: center;
 }
 
 
@@ -281,11 +313,9 @@ list-style: none;
     width: 45%;
     align-items: center;
     text-align: left;
-    height: 200px;
     padding: 0 50px 0 0;
     justify-content: flex-end;
 }
-
 
 /*Footer Showroom*/
 .footer-showroom {
@@ -305,7 +335,12 @@ list-style: none;
     padding: 0px 50px 0 30px;
 }
 
-.showroom-karte {
+.showroom-karte-item {
     margin: 0;
     padding: 0;
+}
+
+.showroom-karte {
+    max-width: 300px;
+    max-height: 196px;
 }
