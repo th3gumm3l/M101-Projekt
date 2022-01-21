@@ -91,6 +91,14 @@
     width: 30%;
     height: 300px;
     margin: 30px 0 30px 0;
+    border: solid;
+    border-color: transparent;
+    transition: 0.2s;
+}
+
+.Produkte-item:hover {
+    border-color: rgb(232, 148, 148);
+    transition: 0.2s;
 }
 
 
@@ -123,6 +131,7 @@
 .footer-Container {
     display: flex;
     align-items: center;
+    padding: 20px;
 }
 
 

@@ -100,7 +100,14 @@
     width: 60%;
     margin: 60px 0 30px 0;
     background-color: rgba(193, 189, 189, 0.399);
+    transition: 0.5s;
 }
+
+.UeberUns-Container:hover {
+    box-shadow: 10px 10px 2px rgb(80, 140, 150);
+    transition: 0.5s;
+}
+
 
 .UeberUns-Text {
     display: flex;
@@ -130,7 +137,14 @@
     width: 60%;
     margin: 30px 0 30px 0;
     background-color: rgba(193, 189, 189, 0.399);
+    transition: 0.5s;
 }
+
+.Dienstleistungen-Container:hover {
+    box-shadow: 10px 10px 2px rgb(80, 140, 150);
+    transition: 0.5s;
+}
+
 
 .Dienstleistungen-Text {
     display: flex;
@@ -165,6 +179,12 @@
     width: 60%;
     margin: 30px 0 60px 0;
     background-color: rgba(193, 189, 189, 0.399);
+    transition: 0.5s;
+}
+
+.SchuberHolding-Container:hover {
+    box-shadow: 10px 10px 2px rgb(80, 140, 150);
+    transition: 0.5s;
 }
 
 .SchuberHolding-Text {
@@ -197,7 +217,7 @@
 
 /*PreFooter Abteil*/
 .prefooter-section {
-    background-color: rgb(169, 168, 168);
+    background-color: rgb(157, 186, 191);
 }
 
 /*PreFooter ContactFormula*/
@@ -234,6 +254,7 @@
 .footer-Container {
     display: flex;
     align-items: center;
+    padding: 20px;
 }
 
 
