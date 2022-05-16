@@ -12,3 +12,6 @@
 - Know layout options
 - Create wireframes
 - Implement design
+
+## Known Issues
+- Website is not responsible
